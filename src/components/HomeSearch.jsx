@@ -8,6 +8,11 @@ const HomeSearch = () => {
         <input type="text" className="flex-grow focus:outline-none" />
         <BsFillMicFill className="text-lg" />
       </form>
+
+      <div className="">
+        <button className="btn">Google Search</button>
+        <button className="btn">I'm Feeling Lucky</button>
+      </div>
     </>
   );
 };
